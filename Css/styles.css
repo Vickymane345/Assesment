@@ -1,0 +1,241 @@
+h1,
+h3,
+h6 {
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.tie {
+    color: white;
+    background-color: green;
+}
+
+.tie:hover {
+    background-color: white;
+    color: green;
+}
+
+.wow {
+    color: green;
+}
+
+.wow:hover {
+    background-color: green;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto Serif', serif;
+}
+
+#payroll .great,
+#salary .owl {
+    width: 20%;
+}
+
+#payroll .wing,
+#salary .gru {
+    width: 15%;
+}
+
+#payroll .fry #salary .vgg {
+    font-size: 1rem;
+}
+
+.wave-container {
+    position: relative;
+    background: white;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+#services .how {
+    background-color: white;
+    color: black;
+}
+
+#services .how:hover {
+
+    background-color: green;
+    color: white;
+}
+
+#services .wee {
+    background-color: green;
+    color: white;
+}
+
+#services .wee:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+#services .nice {
+    display: none;
+}
+
+#demo .yeah {
+    display: none;
+}
+
+#video .raw {
+    background-color: #ECFFDC;
+    border-radius: 50%;
+    box-shadow: 4px 5px 4px 4px green;
+
+}
+
+#video .try {
+    width: 50%;
+}
+
+#salary .boat {
+    background-color: lightblue;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 5px 5px 5px 5px blue;
+}
+
+#demo .card {
+    box-shadow: 5px 5px 5px 5px blue;
+}
+
+#demo input {
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: gainsboro;
+
+}
+
+#foot input {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: gainsboro;
+}
+
+select {
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: gainsboro;
+}
+
+#salary .surf {
+    position: absolute;
+    right: 25rem;
+}
+
+#foot .growth {
+    color: grey;
+    position: relative;
+    right: 2rem;
+
+}
+
+@media (max-width:760px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 5px;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 80%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: right 100ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed.navbar-collapse {
+        transition: right 100ms ease-in-out;
+    }
+
+
+
+    .great {
+        width: 20%;
+    }
+
+    .wing {
+        width: 15%;
+    }
+
+    #payroll .ver,
+    #salary .leak,
+    #salary .grtt,
+    #salary .bolu {
+        margin-top: 1rem;
+    }
+
+    #payroll .gfr {
+        display: none;
+    }
+
+    #services .book {
+        margin-top: 1rem;
+    }
+
+    #video .dry,
+    #foot .dry,
+    .wow {
+        display: none;
+    }
+
+    #foot .with {
+        width: 100%;
+    }
+
+    #foot .growth {
+        position: relative;
+        left: 6.6rem;
+        bottom: 1.8rem;
+    }
+
+    #video li {
+        list-style: circle;
+    }
+
+    #video h3,
+    p,
+    #demo .wale,
+    #foot .real,
+    #foot .odo,
+    .lmao {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .nav-link {
+        color: black;
+    }
+}
